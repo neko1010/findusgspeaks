@@ -5,7 +5,9 @@
 #Usage: findpeaks.sh FILES
 #
 #Description:
-#	Longer description
+#	Program will find the maximum values in USGS water timeseries files.
+#   Files can be downloaded from https://waterdata.usgs.gov/nwis
+#
 
 # grab each line beginning with 'USGS', only columns 3-4, sort numerically,
 #in reverse, by the second column, and return the first line of the head 

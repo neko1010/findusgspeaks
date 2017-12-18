@@ -11,7 +11,8 @@
 
 # grab each line beginning with 'USGS', only columns 3-4, sort numerically,
 #in reverse, by the second column, and return the first line of the head 
-# hello there
+# overwrote everything
+
 for file in $@
 do
     echo $file
